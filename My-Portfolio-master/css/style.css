@@ -1,0 +1,19 @@
+.btn {
+  width: 170px;
+}
+
+body {
+  font-family: Lobster;
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.cfont {
+  font-size: 25px;
+  color: black;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}

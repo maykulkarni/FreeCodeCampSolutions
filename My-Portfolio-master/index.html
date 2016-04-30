@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>My Portfolio New</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Lobster'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--
+navbar = create a navbar
+navbar-inverse = default is white, inverse=black
+navbar-fixed-top = fix it across sub sections 
+container = whatever you add should be in the container, else it will
+be out of sync. eg: stuff starting right in the left of the page.
+-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+<!-- 
+1.These span classes add horizon lines so that users from mobile/tab can collapse the nav bar
+2.The data-toggle=#id tell it which id it should populate it with in the tabs view
+-->
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </button>
+      <a href="" class="navbar-brand" style="font-size: 35px"> Mayur Kulkarni </a>
+    </div>
+    <!-- ENd Navbar header -->
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <a href="https://www.github.com/mayur3086" target="_blank" class="btn btn-warning navbar-right" style="font-size: 20px;">My Github</a>
+      <ul class="nav navbar-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#port">Portfolio</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End container -->
+</nav>
+<!-- End Navbar -->
+<!-- Jumbotron -->
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Hello There!</h1>
+    <p>You've reached Mayur Kulkarni. How would you like me to help you? </p>
+    <div class="btn-group">
+      <a href="https://en.wikipedia.org/wiki/Steve_Jobs" target="_blank" class="btn btn-lg btn-warning ">My Idol</a>
+      <a href="https://en.wikipedia.org/wiki/Slash_(musician)" target="_blank" class="btn btn-lg btn-warning ">Favo Guitarist</a>
+      <a href="https://www.google.com" target="_blank" class="btn  btn-lg btn-warning">Dream Company</a>
+    </div>
+  </div>
+  <!-- End container -->
+</div>
+<!-- End jumbo-->
+
+<!--About me -->
+<div class="container">
+  <div class="page-header" id="about">
+    <h2>Something About Me</h2>
+    <p>I love coding. I've been programming since 4 years from now.</p>
+    <p>My favourite language is Java, since I know it the best, and then comes Python. Python is great, specially because it comes in handy when solving Machine Learning.</p>
+  </div>
+</div><!-- End about me -->
+<!-- Portfolio -->
+<div class="container">
+  <section>
+    <div class="page-header" id="port">
+      <h2>These are some things I love.</h2>
+    </div>
+    <!-- end page header -->
+    <div class="carousel slide" id="screenshot-carousel" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#screenshot-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#screenshot-carousel" data-slide-to="1"></li>
+        <li data-target="#screenshot-carousel" data-slide-to="2"></li>
+        <li data-target="#screenshot-carousel" data-slide-to="3"></li>
+      </ol>
+      <!-- whatever images you put in here are gonna show up in carousel-->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="http://resources.workable.com/wp-content/uploads/2015/09/machine_learning.jpg" alt="Machine Learning">
+
+        </div>
+        <div class="item">
+          <img src="http://sehpaathi.in/sehpaathi-content/uploads/2016/01/data-structures.jpg" alt="Data Structures">
+
+        </div>
+        <div class="item">
+          <img src="http://lazowska.cs.washington.edu/MS/DS.wordle.jpg" alt="Data Science">
+
+        </div>
+        <div class="item">
+          <img src="http://www.eng.utah.edu/~cs2420/images/book-wordle.png" alt="Algorithms">
+
+        </div>
+      </div>
+      <!-- carousel inner -->
+      <a href="#screenshot-carousel" class="left carousel-control" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left">
+        </span>
+      </a>
+      <a href="#screenshot-carousel" class="right carousel-control" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right">
+        </span>
+      </a>
+    </div>
+    <!-- end carousel-->
+  </section>
+</div>
+<!--contact-->
+<div class="container">
+  <section>
+    <div class="page-header" id="contact">
+      <h2>Contact Me</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-4">
+        <blockquote>
+          <p>Coding Masters arent born, They're made!.</p>
+          <footer>Mayur The Great</footer>
+        </blockquote>
+      </div>
+      <div class="col-lg-4">
+        <blockquote>
+          <p>She's got a smile that it seems to me Reminds me of childhood memories Where everything Was as fresh as the bright blue sky</p>
+          <footer>Axl Rose</footer>
+        </blockquote>
+      </div>
+      <div class="col-lg-4">
+        <blockquote>
+          <p>She's got eyes of the bluest skies As if they thought of rain I'd hate to look into those eyes And see an ounce of pain
+          </p>
+          <footer>Axl :)</footer>
+        </blockquote>
+      </div>
+    </div>
+    <!-- end rows -->
+  </section>
+</div>
+<!--End container-->
+
+<section>
+  <!-- call to action -->
+  <!--   well class is used for the greyish background -->
+  <div class="well">
+    <div class="container text-center">
+      <h3>I'll reply ASAP.</h3>
+      <p>Enter your name and email</p>
+      <form action="" class="form-inline">
+        <div class="form-group">
+          <label for="subscription">Subscribe</label>
+          <input type="text" class="form-control" id="subscription" placeholder="Your name here">
+        </div>
+        <div class="form-group">
+          <label for="subscription">Email-Address</label>
+          <input type="text" class="form-control" id="email" placeholder="Your email here">
+        </div>
+        <button type="submit" class="btn btn-default">Subscribe</button>
+        <hr>
+      </form>
+
+    </div>
+    <!-- End container -->
+  </div>
+  <!-- End well -->
+</section>
+<!-- end call to action --><!-- End continer/Contact -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
